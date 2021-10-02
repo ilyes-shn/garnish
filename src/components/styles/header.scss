@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 33px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(3px);
+
+    .mobileTitle {
+        display: none;
+        width: 200px;
+        height: 52px;
+    }
+
+    .logo {
+        height: 33px;
+        width: 349px;
+        transform: translateX(50px);
+    }
+
+    .open {
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+    }
+
+    .close {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+.logo {
+    display: none;
+}
+
+.mobileTitle {
+    display: inline !important;
+}
+
+.getTouch {
+    display: none;
+}
+}

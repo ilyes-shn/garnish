@@ -1,0 +1,56 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  width: 100%;
+  background: #1a1a1a;
+  z-index: 20;
+
+.items::-webkit-scrollbar {
+  width: 0px;
+}
+
+  .items {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    height: 80vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scrollbar-width: none;
+
+
+    h3 {
+      font-size: 24px;
+      line-height: 51px;
+      font-family: light !important;
+      color: white;
+      transition: all 1s ease;
+
+      &:hover {
+        font-family: bold !important;
+        transform: translateX(5px);
+      }
+    }
+
+    a {
+      font-size: 24px;
+      line-height: 51px;
+      font-family: light !important;
+      color: white;
+    }
+
+    hr {
+        width: 180px;
+        margin: 25px auto;
+    }
+
+    .social {
+      margin-top: 20%;
+    }
+  }
+}

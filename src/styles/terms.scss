@@ -1,0 +1,32 @@
+.terms {
+    width: 790px;
+    margin: 0px auto;
+margin-top: 140px;
+
+h1 {
+    font-size: 80px;
+    font-family: bold;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: regular;
+    text-align: justify;
+    margin-bottom: 20px
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .terms {
+        width: 100%;
+        margin-top: 40px;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+}

@@ -13,10 +13,22 @@ const WhatWeDo = () => {
         </h3>
       </div>
       <div className="grid">
-        <img src="/assets/images/item1.png" alt="item" />
-        <img src="/assets/images/item2.png" alt="item" />
-        <img src="/assets/images/item3.png" alt="item" />
-        <img src="/assets/images/item4.png" alt="item" />
+        <div className='grid_item'>
+        <img src="/assets/images/video.svg" alt="item" />
+          <h4>Video Production</h4>
+        </div>
+        <div className='grid_item'>
+        <img src="/assets/images/photo.svg" alt="item" />
+          <h4>Photo Production</h4>
+        </div>
+        <div className='grid_item'>
+        <img  src="/assets/images/media.svg" alt="item" />
+          <h4 >Social Media Content</h4>
+        </div>
+        <div className='grid_item'>
+        <img  src="/assets/images/product.svg" alt="item" />
+          <h4>Product Shooting</h4>
+        </div>
       </div>
       <div className="philo margin">
         <img src="/assets/images/Layer 8@1X.png" alt="camera" />

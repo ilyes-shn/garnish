@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="55" viewBox="0 0 60 55">
+  <g id="Photo_icon" transform="translate(-9404 -623)">
+    <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(9402 619)">
+      <g id="Groupe_2" data-name="Groupe 2">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="15" cy="15" r="15" transform="translate(19 21)" fill="none" stroke="#4c4c4c" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_4" data-name="Tracé 4" d="M8,58H56a5,5,0,0,0,5-5V19a5,5,0,0,0-5-5H47L41,5H27l-6,9H8a5,5,0,0,0-5,5V53A5,5,0,0,0,8,58Z" fill="none" stroke="#4c4c4c" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_5" data-name="Tracé 5" d="M25,36a9,9,0,0,1,9-9" fill="none" stroke="#4c4c4c" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="2.5" cy="2.5" r="2.5" transform="translate(10 21)" fill="#4c4c4c"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -34,6 +34,10 @@
         font-family: regular;
         padding: 0px 35px;
         cursor: pointer;
+
+        pre {
+            font-family: regular !important;
+        }
     }
 }
 

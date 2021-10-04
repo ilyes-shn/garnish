@@ -13,7 +13,7 @@ const [data, dispatch] = useData()
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat duis aute irure <span>dolor in reprehenderit.</span>
       </p>
-      <button onClick={() => dispatch({type: 'cookie'})}>Accept</button>
+      <button onClick={() => dispatch({type: 'cookie'})}><pre>I Accept</pre></button>
     </div>
   );
 };

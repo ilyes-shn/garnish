@@ -4,10 +4,10 @@ import {useData} from '../Context'
 
 const style = {
 color: 'white',
-fontSize: '17.85px',
+fontSize: '14px',
 backgroundColor: 'black',
 fontFamily: 'regular',
-width: '168px',
+width: '124px',
 height: '41px',
 lineHeight: '41px',
 textAlign: 'center',
@@ -23,7 +23,7 @@ const GetInTouch = () => {
         history.push('/contact')
     }
     return (
-        <div className='getTouch' style={{cursor: 'pointer'}} onClick={click}>
+        <div className='getTouch forced' style={{cursor: 'pointer'}} onClick={click}>
             <h3 style={style}>Get in touch</h3>
         </div>
     )

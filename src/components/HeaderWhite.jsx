@@ -14,7 +14,7 @@ const HeaderWhite = () => {
   };
 
   return (
-    <div className="header" style={{background: 'rgba(255, 255, 255, 0.8)'}}>
+    <div className="header">
       <img className="mobileTitle" src="/assets/images/MobileTitleBlack.svg" alt="logo" />
       <img
         onClick={open}

@@ -125,6 +125,12 @@
   flex-direction: column;
   align-items: center;
 
+  .forced {
+    width: 198px !important;
+    height: 66px !important;
+    font-size: 19.84px !important;
+    transform: translateX(40px);
+  }
   h1 {
     font-size: 110px;
     font-family: bold;
@@ -282,8 +288,11 @@
       width: 100%;
     }
 
-    .getTouch {
+    .forced {
       display: inline !important;
+      width: 198px !important;
+      height: 66px !important;
+      font-size: 19.84px !important;
     }
   }
 }

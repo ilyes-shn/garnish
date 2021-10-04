@@ -4,10 +4,10 @@
     padding: 33px;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 5;
-    backdrop-filter: blur(3px);
+    
 
     .mobileTitle {
         display: none;

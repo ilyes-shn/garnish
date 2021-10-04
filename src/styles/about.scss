@@ -265,8 +265,10 @@
     .members {
       margin-top: 30px;
       margin-bottom: 70px;
+      padding: 0px 10px;
       overflow-x: scroll;
       width: 120%;
+      justify-content: flex-start;
 
       img {
         height: 387px;
